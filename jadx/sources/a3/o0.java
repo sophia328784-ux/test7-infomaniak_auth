@@ -1,0 +1,19 @@
+package a3;
+
+import androidx.compose.ui.node.Owner;
+
+/* JADX INFO: compiled from: r8-map-id-f0ea35b9413518085558f5eab0e18761d3a8e1aa1c379e77fd8e6be9d42a0ba0 */
+/* JADX INFO: loaded from: classes.dex */
+public abstract class o0 {
+
+    /* JADX INFO: renamed from: a, reason: collision with root package name */
+    public static final y3.d f202a = td.a.d();
+
+    public static final Owner a(k0 k0Var) {
+        Owner owner = k0Var.f169y;
+        if (owner != null) {
+            return owner;
+        }
+        throw defpackage.f.d("LayoutNode should be attached to an owner");
+    }
+}

@@ -1,0 +1,60 @@
+.class public final Lcom/dotlottie/dlplayer/Event$OnComplete;
+.super Lcom/dotlottie/dlplayer/Event;
+.source "r8-map-id-f0ea35b9413518085558f5eab0e18761d3a8e1aa1c379e77fd8e6be9d42a0ba0"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/dotlottie/dlplayer/Event;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x19
+    name = "OnComplete"
+.end annotation
+
+
+# static fields
+.field public static final $stable:I
+
+.field public static final INSTANCE:Lcom/dotlottie/dlplayer/Event$OnComplete;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 1
+
+    .line 1
+    new-instance v0, Lcom/dotlottie/dlplayer/Event$OnComplete;
+
+    .line 2
+    .line 3
+    invoke-direct {v0}, Lcom/dotlottie/dlplayer/Event$OnComplete;-><init>()V
+
+    .line 4
+    .line 5
+    .line 6
+    sput-object v0, Lcom/dotlottie/dlplayer/Event$OnComplete;->INSTANCE:Lcom/dotlottie/dlplayer/Event$OnComplete;
+
+    .line 7
+    .line 8
+    return-void
+.end method
+
+.method private constructor <init>()V
+    .locals 2
+
+    .line 1
+    const/4 v0, 0x6
+
+    .line 2
+    const/4 v1, 0x0
+
+    .line 3
+    invoke-direct {p0, v0, v1}, Lcom/dotlottie/dlplayer/Event;-><init>(ILzk/f;)V
+
+    .line 4
+    .line 5
+    .line 6
+    return-void
+.end method

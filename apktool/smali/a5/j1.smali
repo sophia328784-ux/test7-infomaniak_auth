@@ -1,0 +1,129 @@
+.class public final La5/j1;
+.super La5/k1;
+.source "r8-map-id-f0ea35b9413518085558f5eab0e18761d3a8e1aa1c379e77fd8e6be9d42a0ba0"
+
+
+# instance fields
+.field public final e:Landroid/view/WindowInsetsAnimation;
+
+
+# direct methods
+.method public constructor <init>(Landroid/view/WindowInsetsAnimation;)V
+    .locals 4
+
+    .line 1
+    const/4 v0, 0x0
+
+    .line 2
+    const-wide/16 v1, 0x0
+
+    .line 3
+    .line 4
+    const/4 v3, 0x0
+
+    .line 5
+    invoke-direct {p0, v3, v0, v1, v2}, La5/k1;-><init>(ILandroid/view/animation/Interpolator;J)V
+
+    .line 6
+    .line 7
+    .line 8
+    iput-object p1, p0, La5/j1;->e:Landroid/view/WindowInsetsAnimation;
+
+    .line 9
+    .line 10
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a()F
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, La5/j1;->e:Landroid/view/WindowInsetsAnimation;
+
+    .line 2
+    .line 3
+    invoke-static {v0}, La5/b0;->s(Landroid/view/WindowInsetsAnimation;)F
+
+    .line 4
+    .line 5
+    .line 6
+    move-result v0
+
+    .line 7
+    return v0
+.end method
+
+.method public final b()J
+    .locals 2
+
+    .line 1
+    iget-object v0, p0, La5/j1;->e:Landroid/view/WindowInsetsAnimation;
+
+    .line 2
+    .line 3
+    invoke-static {v0}, La5/b0;->d(Landroid/view/WindowInsetsAnimation;)J
+
+    .line 4
+    .line 5
+    .line 6
+    move-result-wide v0
+
+    .line 7
+    return-wide v0
+.end method
+
+.method public final c()F
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, La5/j1;->e:Landroid/view/WindowInsetsAnimation;
+
+    .line 2
+    .line 3
+    invoke-static {v0}, La5/b0;->a(Landroid/view/WindowInsetsAnimation;)F
+
+    .line 4
+    .line 5
+    .line 6
+    move-result v0
+
+    .line 7
+    return v0
+.end method
+
+.method public final d()I
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, La5/j1;->e:Landroid/view/WindowInsetsAnimation;
+
+    .line 2
+    .line 3
+    invoke-static {v0}, La5/b0;->c(Landroid/view/WindowInsetsAnimation;)I
+
+    .line 4
+    .line 5
+    .line 6
+    move-result v0
+
+    .line 7
+    return v0
+.end method
+
+.method public final e(F)V
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, La5/j1;->e:Landroid/view/WindowInsetsAnimation;
+
+    .line 2
+    .line 3
+    invoke-static {v0, p1}, La5/b0;->o(Landroid/view/WindowInsetsAnimation;F)V
+
+    .line 4
+    .line 5
+    .line 6
+    return-void
+.end method

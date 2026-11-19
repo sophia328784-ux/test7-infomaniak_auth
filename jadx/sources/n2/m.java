@@ -1,0 +1,40 @@
+package n2;
+
+/* JADX INFO: compiled from: r8-map-id-f0ea35b9413518085558f5eab0e18761d3a8e1aa1c379e77fd8e6be9d42a0ba0 */
+/* JADX INFO: loaded from: classes.dex */
+public final class m extends a0 {
+
+    /* JADX INFO: renamed from: c, reason: collision with root package name */
+    public final float f13107c;
+
+    /* JADX INFO: renamed from: d, reason: collision with root package name */
+    public final float f13108d;
+
+    public m(float f10, float f11) {
+        super(3);
+        this.f13107c = f10;
+        this.f13108d = f11;
+    }
+
+    public final boolean equals(Object obj) {
+        if (this == obj) {
+            return true;
+        }
+        if (!(obj instanceof m)) {
+            return false;
+        }
+        m mVar = (m) obj;
+        return Float.compare(this.f13107c, mVar.f13107c) == 0 && Float.compare(this.f13108d, mVar.f13108d) == 0;
+    }
+
+    public final int hashCode() {
+        return Float.hashCode(this.f13108d) + (Float.hashCode(this.f13107c) * 31);
+    }
+
+    public final String toString() {
+        StringBuilder sb2 = new StringBuilder("MoveTo(x=");
+        sb2.append(this.f13107c);
+        sb2.append(", y=");
+        return j0.r.m(sb2, this.f13108d, ')');
+    }
+}

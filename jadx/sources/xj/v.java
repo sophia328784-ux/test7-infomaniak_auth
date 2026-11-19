@@ -1,0 +1,24 @@
+package xj;
+
+import java.util.List;
+import java.util.Set;
+
+/* JADX INFO: compiled from: r8-map-id-f0ea35b9413518085558f5eab0e18761d3a8e1aa1c379e77fd8e6be9d42a0ba0 */
+/* JADX INFO: loaded from: classes.dex */
+public interface v {
+    Set a();
+
+    List c(String str);
+
+    void clear();
+
+    boolean contains(String str);
+
+    boolean d();
+
+    boolean isEmpty();
+
+    void j(String str, List list);
+
+    Set names();
+}

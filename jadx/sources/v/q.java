@@ -1,0 +1,18 @@
+package v;
+
+/* JADX INFO: compiled from: r8-map-id-f0ea35b9413518085558f5eab0e18761d3a8e1aa1c379e77fd8e6be9d42a0ba0 */
+/* JADX INFO: loaded from: classes.dex */
+public final class q implements z {
+
+    /* JADX INFO: renamed from: a, reason: collision with root package name */
+    public final /* synthetic */ z f18350a;
+
+    public q(z zVar) {
+        this.f18350a = zVar;
+    }
+
+    @Override // v.z
+    public final w.o1 a() {
+        return this.f18350a.a();
+    }
+}

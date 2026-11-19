@@ -1,0 +1,106 @@
+.class public final Lln/b;
+.super Ljava/lang/Object;
+.source "r8-map-id-f0ea35b9413518085558f5eab0e18761d3a8e1aa1c379e77fd8e6be9d42a0ba0"
+
+# interfaces
+.implements Ljn/b;
+.implements Ljava/io/Serializable;
+
+
+# static fields
+.field public static final j:Lln/b;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 1
+
+    .line 1
+    new-instance v0, Lln/b;
+
+    .line 2
+    .line 3
+    invoke-direct {v0}, Ljava/lang/Object;-><init>()V
+
+    .line 4
+    .line 5
+    .line 6
+    sput-object v0, Lln/b;->j:Lln/b;
+
+    .line 7
+    .line 8
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a()Z
+    .locals 1
+
+    .line 1
+    const/4 v0, 0x0
+
+    .line 2
+    return v0
+.end method
+
+.method public final b()Z
+    .locals 1
+
+    .line 1
+    const/4 v0, 0x0
+
+    .line 2
+    return v0
+.end method
+
+.method public final c(Ljava/lang/String;Ljava/lang/Throwable;)V
+    .locals 0
+
+    .line 1
+    return-void
+.end method
+
+.method public final d(Ljava/lang/String;)V
+    .locals 0
+
+    .line 1
+    return-void
+.end method
+
+.method public final e(Ljava/lang/String;)V
+    .locals 0
+
+    .line 1
+    return-void
+.end method
+
+.method public final f()Z
+    .locals 1
+
+    .line 1
+    const/4 v0, 0x0
+
+    .line 2
+    return v0
+.end method
+
+.method public final h()Z
+    .locals 1
+
+    .line 1
+    const/4 v0, 0x0
+
+    .line 2
+    return v0
+.end method
+
+.method public final i()Z
+    .locals 1
+
+    .line 1
+    const/4 v0, 0x0
+
+    .line 2
+    return v0
+.end method

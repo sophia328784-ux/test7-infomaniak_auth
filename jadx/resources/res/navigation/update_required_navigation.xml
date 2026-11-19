@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/update_required_navigation"
+    app:startDestination="@+id/updateRequiredActivity">
+    <activity
+        android:label="UpdateRequiredActivity"
+        android:name="com.infomaniak.core.inappupdate.ui.UpdateRequiredActivity"
+        android:id="@+id/updateRequiredActivity">
+        <argument
+            android:name="appId"
+            app:argType="string"/>
+        <argument
+            android:name="versionCode"
+            app:argType="integer"/>
+        <argument
+            android:name="appTheme"
+            app:argType="integer"/>
+    </activity>
+</navigation>

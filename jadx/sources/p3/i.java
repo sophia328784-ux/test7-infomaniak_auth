@@ -1,0 +1,28 @@
+package p3;
+
+/* JADX INFO: compiled from: r8-map-id-f0ea35b9413518085558f5eab0e18761d3a8e1aa1c379e77fd8e6be9d42a0ba0 */
+/* JADX INFO: loaded from: classes.dex */
+public final class i {
+
+    /* JADX INFO: renamed from: a, reason: collision with root package name */
+    public final int f14800a;
+
+    public final boolean equals(Object obj) {
+        if (obj instanceof i) {
+            return this.f14800a == ((i) obj).f14800a;
+        }
+        return false;
+    }
+
+    public final int hashCode() {
+        return Integer.hashCode(this.f14800a);
+    }
+
+    public final String toString() {
+        int i10 = this.f14800a;
+        if (i10 == 0) {
+            return "Normal";
+        }
+        return i10 == 1 ? "Italic" : "Invalid";
+    }
+}

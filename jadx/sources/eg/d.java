@@ -1,0 +1,29 @@
+package eg;
+
+import bg.g;
+
+/* JADX INFO: compiled from: r8-map-id-f0ea35b9413518085558f5eab0e18761d3a8e1aa1c379e77fd8e6be9d42a0ba0 */
+/* JADX INFO: loaded from: classes.dex */
+public final /* synthetic */ class d implements yk.a {
+
+    /* JADX INFO: renamed from: j, reason: collision with root package name */
+    public final /* synthetic */ int f4557j;
+    public final /* synthetic */ e k;
+
+    public /* synthetic */ d(e eVar, int i10) {
+        this.f4557j = i10;
+        this.k = eVar;
+    }
+
+    @Override // yk.a
+    public final Object q() {
+        switch (this.f4557j) {
+            case 0:
+                return this.k.b(g.f2158c, Boolean.TRUE);
+            case 1:
+                return this.k.b(g.f2158c, Boolean.FALSE);
+            default:
+                return new b(this.k);
+        }
+    }
+}

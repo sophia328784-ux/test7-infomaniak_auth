@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="buttonContinueWithAccounts">
+        <item quantity="one">Continue with this account</item>
+        <item quantity="other">Continue with these accounts</item>
+    </plurals>
+    <plurals name="migrationWarningDescription">
+        <item quantity="one">Please log in again to secure your account.</item>
+        <item quantity="other">Please log in again to secure your accounts.</item>
+    </plurals>
+    <plurals name="myAccount">
+        <item quantity="one">My account</item>
+        <item quantity="other">My accounts</item>
+    </plurals>
+    <plurals name="selectedAccountCountLabel">
+        <item quantity="one">%d account selected</item>
+        <item quantity="other">%d accounts selected</item>
+    </plurals>
+</resources>

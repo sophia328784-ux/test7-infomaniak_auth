@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="match_parent" android:layout_height="match_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout android:id="@id/appBarLayout" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.Toolbar android:theme="?themeLoginToolbar" android:id="@id/toolbar" android:visibility="visible" android:layout_width="match_parent" android:layout_height="?actionBarSize" android:elevation="2.0dp" app:navigationIcon="@null" app:title="@string/buttonLogin" />
+        <ProgressBar android:layout_gravity="bottom" android:id="@id/progressBar" android:layout_width="match_parent" android:layout_height="2.0dp" style="@style/Widget.AppCompat.ProgressBar.Horizontal" />
+    </com.google.android.material.appbar.AppBarLayout>
+    <WebView android:id="@id/webview" android:layout_width="match_parent" android:layout_height="match_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

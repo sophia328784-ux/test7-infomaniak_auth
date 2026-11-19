@@ -1,0 +1,25 @@
+.class public final Lj7/c;
+.super Landroid/animation/AnimatorListenerAdapter;
+.source "r8-map-id-f0ea35b9413518085558f5eab0e18761d3a8e1aa1c379e77fd8e6be9d42a0ba0"
+
+
+# instance fields
+.field private final mViewBounds:Lj7/e;
+
+
+# direct methods
+.method public constructor <init>(Lj7/e;)V
+    .locals 0
+
+    .line 1
+    invoke-direct {p0}, Landroid/animation/AnimatorListenerAdapter;-><init>()V
+
+    .line 2
+    .line 3
+    .line 4
+    iput-object p1, p0, Lj7/c;->mViewBounds:Lj7/e;
+
+    .line 5
+    .line 6
+    return-void
+.end method

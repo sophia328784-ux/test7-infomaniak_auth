@@ -1,0 +1,16 @@
+package io.sentry;
+
+import java.io.BufferedInputStream;
+
+/* JADX INFO: compiled from: r8-map-id-f0ea35b9413518085558f5eab0e18761d3a8e1aa1c379e77fd8e6be9d42a0ba0 */
+/* JADX INFO: loaded from: classes.dex */
+public final class o2 implements t0 {
+
+    /* JADX INFO: renamed from: a, reason: collision with root package name */
+    public static final o2 f8937a = new o2();
+
+    @Override // io.sentry.t0
+    public final io.sentry.internal.debugmeta.c a(BufferedInputStream bufferedInputStream) {
+        return null;
+    }
+}
